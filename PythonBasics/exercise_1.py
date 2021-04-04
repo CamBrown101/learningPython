@@ -4,8 +4,8 @@ var2 = 1
 
 # Create two variables, num1 and num2, which multiply together to give 16.
 
-var1 = 4
-var2 = 4
+num1 = 4
+num2 = 4
 
 answer = var1 * var2
 print(answer)
