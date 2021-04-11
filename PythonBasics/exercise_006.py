@@ -27,4 +27,6 @@ class Store:
         return f"{store.name}, total stock price: {int(store.stock_price())}"
 
 
-store = Store('newStore')
+storeOne = Store('newStore')
+store_franchise = storeOne.franchise(storeOne)
+print(store_franchise.name)
